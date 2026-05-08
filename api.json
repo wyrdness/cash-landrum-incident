@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/cash-landrum-incident",
     "maintainers": [
       {
@@ -16,111 +16,305 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "cash-landrum-incident",
-    "name": "Cash-Landrum Incident - The Texas UFO Radiation Case",
-    "aliases": [],
+    "name": "Cash–Landrum incident",
+    "aliases": [
+      { "name": "Cash–Landrum UFO incident", "region": "United States" },
+      { "name": "Huffman Texas UFO incident", "region": "Texas, USA" }
+    ],
     "category": "UFO_UAP",
-    "subcategory": "Unknown",
+    "subcategory": "Close encounter / alleged radiation injury case",
     "tags": [
-      "folklore",
-      "mythology"
+      "ufo",
+      "uap",
+      "close-encounter",
+      "radiation-injury",
+      "texas",
+      "1980",
+      "military-helicopters",
+      "landmark-case"
     ],
     "status": "documented",
     "description": {
-      "summary": "The Cash-Landrum Incident is one of the most disturbing and well-documented UFO encounters in history, primarily because of the severe physical injuries allegedly suffered by the witnesses.",
-      "full": "The Cash-Landrum Incident is one of the most disturbing and well-documented UFO encounters in history, primarily because of the severe physical injuries allegedly suffered by the witnesses. On the evening of December 29, 1980, Betty Cash, Vickie Landrum, and Vickie's seven-year-old grandson Colby encountered a large diamond-shaped object emitting intense heat and flames while driving on a rural road near Huffman, Texas. The object was reportedly accompanied by military helicopters, leading to speculation about secret government technology or a military recovery operation."
+      "summary": "A 1980 close-encounter UFO case in southeast Texas in which Betty Cash, Vickie Landrum, and Vickie's seven-year-old grandson Colby reported a diamond-shaped craft emitting flame and heat, escorted by approximately 23 military helicopters. The witnesses subsequently reported severe injuries consistent, in their physicians' view, with radiation exposure.",
+      "full": "The Cash–Landrum incident took place on the evening of December 29, 1980, on a rural two-lane road (FM 1485 / 2100) in dense woods near Dayton, Texas, in the Houston exurbs. Betty Cash (age 51), Vickie Landrum (57), and Landrum's seven-year-old grandson Colby reported that as they returned home from a restaurant they encountered a large, diamond-shaped craft with a flat top and bottom, hovering above the road and emitting a downward cone of flame so intense that it heated the metal of their car. The craft was, according to the witnesses, escorted by approximately 23 helicopters in tight formation, including identifiable Boeing CH-47 Chinooks. In the days that followed, all three witnesses reported nausea, vomiting, headaches, sunburn-like skin reactions, blistering, and hair loss; Cash, who had spent the longest time outside the car, was hospitalized in a critical condition. The case became one of the most-cited 'physical effects' UFO encounters of the 20th century and is unusual for the substantial primary documentation of the witnesses' medical condition. Cash and Landrum sued the U.S. government for $20 million; the case was dismissed in 1986 by U.S. District Court Judge Ross Sterling on the basis that the United States neither owned the object nor operated the helicopters described. The principal investigator was MUFON's John F. Schuessler, an aerospace engineer at NASA's Johnson Space Center; the U.S. Army's own investigation was conducted by Lt. Col. George Sarran. Skeptics including Philip J. Klass, Curt Collins, and Brian Dunning have argued that the medical evidence does not require a UFO explanation and have raised questions about the timeline and corroboration."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Named for the principal witnesses, Betty Cash and Vickie Landrum.",
+      "meaning": "Conventional case-name in UFO literature.",
+      "first_use": "Early 1980s, in MUFON case reports."
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "UFO_UAP",
-      "type": "Unknown",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Close encounter (CE-2 with physiological effects)",
+      "subtype": "Alleged radiation-injury case",
+      "variant": "Diamond-shaped craft / military escort report"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "rendlesham-forest-incident", "name": "Rendlesham Forest incident", "relationship": "similar", "description": "Same-period (December 1980) close-encounter case with multiple witnesses" },
+      { "id": "travis-walton-incident", "name": "Travis Walton incident", "relationship": "similar", "description": "Earlier close-encounter case with claimed physical effects on a witness" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "features": [
+        { "feature": "Diamond / lozenge shape", "description": "Witnesses described a craft with flat top and bottom, narrowing to points at the sides; size compared to the local Dayton water tower", "frequency": "always" },
+        { "feature": "Downward flame and intense heat", "description": "A cone-shaped exhaust of flame from the underside hot enough to soften road asphalt and heat the witnesses' car body", "frequency": "always" },
+        { "feature": "Ring of small blue lights", "description": "A horizontal ring of small blue lights around the central cross-section", "frequency": "always" },
+        { "feature": "Helicopter escort", "description": "Approximately 23 helicopters in close escort, including aircraft identified by the witnesses as CH-47 Chinooks", "frequency": "always" }
+      ],
+      "morphology": "Reported as a single solid craft of metallic appearance, with thrust apparently provided by a downward jet of flame."
     },
     "abilities": [],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "nocturnal",
+      "disposition": "neutral",
+      "social_structure": "unknown",
+      "habitat_preference": ["wooded rural roads"],
+      "patterns": [
+        "One-off event; no repeat encounter is documented"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Single-incident case located on FM 1485/2100 between New Caney and Huffman, in Liberty County, Texas, with the encounter terminating near Dayton.",
+      "continents": ["North America"],
+      "countries": ["United States"],
+      "regions": ["Texas", "Greater Houston"]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "FM 1485 / FM 2100 encounter site",
+        "location": {
+          "description": "Two-lane road in pine woods near Dayton/Huffman, Texas",
+          "country": "United States",
+          "region": "Texas",
+          "coordinates": { "latitude": 30.0925, "longitude": -95.1108 }
+        },
+        "sighting_count": 1,
+        "peak_period": "1980-12-29",
+        "notes": "Single-event hotspot; coordinates are an approximate centroid of the road segment described."
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
-        "circa": true,
-        "source": "Traditional folklore"
-      }
+        "date": "1980-12-29",
+        "circa": false,
+        "source": "Witness statements to MUFON and to medical professionals in the days following."
+      },
+      "peak_activity_periods": [
+        { "period": "1980-1986", "description": "Active investigation, witness medical treatment, and federal lawsuit" },
+        { "period": "1998-present", "description": "Renewed attention following Schuessler's 1998 monograph and ongoing skeptical reanalysis" }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Late-1970s/early-1980s American UFO investigation culture; the case reached MUFON within weeks of the encounter.",
+      "earliest_accounts": "Witness statements to family and medical staff (December 30, 1980 onward), and to MUFON investigator John Schuessler in early January 1981.",
+      "folklore_connections": "Often grouped with Rendlesham Forest (December 26-28, 1980) as part of the 'December 1980' UFO cluster."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1980-12-29", "event": "Cash, Landrum, and Colby Landrum encounter the diamond-shaped craft and helicopter escort near Dayton, Texas", "significance": "The incident itself", "source": "Witness statements; Schuessler (1998)" },
+      { "date": "1981-01-01", "event": "John F. Schuessler (MUFON) begins formal investigation of the case", "significance": "Case enters the UFO research literature", "source": "Schuessler (1998), The Cash-Landrum UFO Incident" },
+      { "date": "1981-08-17", "event": "U.S. Congressman Ron Paul forwards Cash and Landrum's complaint to federal agencies on their behalf", "significance": "Congressional inquiry initiated", "source": "Court records and contemporary press" },
+      { "date": "1982-01-01", "event": "Lt. Col. George Sarran of the U.S. Army Inspector General's office investigates and reports that no Army aviation unit was operating in the area at the relevant time", "significance": "Official military denial of involvement", "source": "Department of the Army inquiry, 1982" },
+      { "date": "1986-08-21", "event": "U.S. District Court Judge Ross N. Sterling dismisses Cash and Landrum's $20 million lawsuit", "significance": "Federal court rules that no U.S. agency was shown to have owned the object or operated the helicopters", "source": "U.S. District Court for the Southern District of Texas" },
+      { "date": "1998-01-01", "event": "John F. Schuessler publishes The Cash-Landrum UFO Incident", "significance": "Definitive book-length treatment of the case from the principal investigator", "source": "Schuessler, J. (1998)" },
+      { "date": "1998-12-29", "event": "Betty Cash dies in Birmingham, Alabama on the eighteenth anniversary of the encounter", "significance": "Her family attributes ongoing illnesses to the encounter; cause-and-effect contested by skeptics", "source": "Schuessler (1998); contemporary press" }
+    ],
+    "modern_era": "The Cash–Landrum incident remains one of the most cited 'physical evidence' UFO cases. It has been re-examined in skeptical literature (Brian Dunning's Skeptoid; Curt Collins' Blue Blurry Lines blog) and is regularly referenced in mainstream coverage of UAP issues, especially since the 2017–2026 wave of U.S. government UAP disclosures."
   },
+
   "sightings": {
     "statistics": {
-      "total_documented": 0,
+      "total_documented": 1,
       "verified": 0,
-      "disputed": 0,
-      "debunked": 0
+      "disputed": 1,
+      "debunked": 0,
+      "date_range": { "earliest": "1980-12-29", "latest": "1980-12-29" }
     },
-    "notable": [],
+    "notable": [
+      {
+        "id": "cash-landrum-1980-12-29",
+        "name": "The Cash–Landrum encounter",
+        "date": { "value": "1980-12-29", "precision": "exact" },
+        "location": {
+          "description": "Two-lane rural road (FM 1485/2100) in pine woods between New Caney and Huffman, near Dayton, Texas",
+          "country": "United States",
+          "region": "Texas",
+          "locality": "Liberty County",
+          "coordinates": { "latitude": 30.0925, "longitude": -95.1108, "precision": "approximate" }
+        },
+        "witnesses": {
+          "count": 3,
+          "types": ["Adult civilian (Betty Cash)", "Adult civilian (Vickie Landrum)", "Child (Colby Landrum, age 7)"],
+          "credibility_factors": [
+            "Multiple consistent witness accounts",
+            "Documented hospitalization of Betty Cash within days",
+            "Independent medical records",
+            "Federal lawsuit and military Inspector General inquiry"
+          ]
+        },
+        "description": "Around 9:00 PM on December 29, 1980, the three witnesses reported encountering a large diamond-shaped object hovering over the road and emitting a downward cone of flame. Cash exited the vehicle and reported the heat being so intense that the car door handle was too hot to touch. The object then ascended and was escorted away by approximately 23 helicopters, several of which the witnesses identified as CH-47 Chinooks. In the following days all three reported skin reactions, eye injury, and hair loss; Cash was admitted to Parkway General Hospital in Houston in serious condition.",
+        "conditions": { "weather": "Cold, clear winter night", "visibility": "Good", "time_of_day": "~21:00", "duration": "Encounter approximately 5–10 minutes" },
+        "evidence": [
+          "Hospital and physician records of Betty Cash and Vickie Landrum",
+          "MUFON field investigation files",
+          "U.S. Army Inspector General report (Sarran, 1982)",
+          "Court filings in Cash v. United States (S.D. Tex. 1986)"
+        ],
+        "credibility": {
+          "rating": "medium",
+          "factors": [
+            "Three consistent witnesses",
+            "Documented and contemporaneous medical evidence",
+            "Federal investigation and litigation record",
+            "Skeptical reanalyses raise unresolved questions about timeline and medical attribution"
+          ],
+          "notes": "Unique among UFO cases for the depth of medical and legal documentation; remains disputed."
+        },
+        "sources": [
+          "Schuessler, J. F. (1998), The Cash-Landrum UFO Incident",
+          "U.S. Army Inspector General report (Sarran, 1982)",
+          "Cash v. United States, U.S. District Court for the Southern District of Texas (1986)"
+        ],
+        "featured": true
+      }
+    ],
     "database_path": "./sightings/"
   },
+
   "evidence": {
-    "physical": [],
+    "physical": [
+      {
+        "id": "cash-landrum-evidence-medical-records",
+        "type": "medical records",
+        "name": "Cash and Landrum hospital and physician records",
+        "date": "1980-12-30",
+        "description": "Contemporary medical documentation of skin lesions, eye injury, hair loss, gastrointestinal symptoms, and other injuries reported by the three witnesses, beginning the day after the encounter.",
+        "status": "disputed",
+        "analysis": "Treating physicians noted symptoms consistent in their judgment with ionising-radiation exposure; skeptics have argued that the symptom pattern could also be explained by other dermatological and systemic conditions and that radiation exposure was not directly measured.",
+        "source": "Schuessler, J. F. (1998)"
+      }
+    ],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "cash-landrum-evidence-army-ig",
+        "type": "government report",
+        "name": "U.S. Army Inspector General inquiry (Sarran)",
+        "date": "1982",
+        "description": "Lt. Col. George Sarran's inquiry on behalf of the Department of the Army concluded that no U.S. Army aviation unit was operating in the area at the relevant time.",
+        "status": "verified",
+        "analysis": "The report's denial of helicopter involvement is central to skeptical interpretations; UFO researchers argue it does not foreclose other federal aviation activity.",
+        "source": "Department of the Army (1982)"
+      },
+      {
+        "id": "cash-landrum-evidence-dismissal",
+        "type": "court ruling",
+        "name": "Cash v. United States dismissal",
+        "date": "1986-08-21",
+        "description": "U.S. District Court Judge Ross N. Sterling dismissed the witnesses' $20 million lawsuit on the grounds that the United States had not been shown to own or operate the craft or the escort helicopters.",
+        "status": "verified",
+        "analysis": "Procedural dismissal rather than a finding of fact about the underlying encounter.",
+        "source": "U.S. District Court for the Southern District of Texas (1986)"
+      }
+    ]
   },
+
   "theories": {
     "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "scientific": [
+      {
+        "name": "Misidentified secret aircraft",
+        "description": "Hypothesis that the object was an experimental U.S. military or contractor aircraft (variously suggested as a nuclear test platform or vectored-thrust prototype), with an associated helicopter recovery escort.",
+        "proponents": ["John F. Schuessler", "various MUFON investigators"],
+        "evidence_cited": ["Witness identification of CH-47 helicopters", "Apparent thrust-derived flame", "Reported military involvement in the days after"]
+      },
+      {
+        "name": "Genuine non-conventional craft",
+        "description": "Hypothesis that the object was a non-human or otherwise non-conventional craft, with the helicopters part of a recovery or monitoring response.",
+        "proponents": ["MUFON", "Stanton Friedman (in commentary)"],
+        "evidence_cited": ["Reported physiological effects", "Multi-witness account", "Apparent escort behaviour"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Misidentification and unrelated illness",
+        "description": "Hypothesis that the witnesses encountered an unrelated aircraft event (possibly a flare or industrial flame) and that the medical complaints, while real, are not attributable to a UFO encounter.",
+        "proponents": ["Philip J. Klass", "Brian Dunning", "Curt Collins"],
+        "evidence_cited": [
+          "Absence of independent radiation measurements",
+          "Difficulty reconciling 23 escorting helicopters with no corroborating witnesses",
+          "Pre-existing health conditions in the witnesses"
+        ]
+      },
+      {
+        "name": "Federal court findings",
+        "description": "U.S. District Court Judge Sterling found in 1986 that the witnesses had not produced evidence that any U.S. agency owned the craft or operated the helicopters.",
+        "proponents": ["U.S. District Court for the Southern District of Texas"],
+        "evidence_cited": ["Cash v. United States ruling, 1986"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": ["American UFO incident folklore"],
+      "stories": [
+        "Witness retellings preserved in MUFON archives",
+        "Local Texas oral tradition about the 'Huffman incident'"
+      ],
+      "beliefs": "Among UFO communities the case is widely treated as one of the strongest physical-effects encounters; in skeptical communities it is treated as a cautionary example of how illness narratives can attach to a misidentified event."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
+      "literature": [
+        "The Cash-Landrum UFO Incident — John F. Schuessler (1998)",
+        "Regular treatment in MUFON Journal"
+      ],
+      "film_tv": [
+        "Unsolved Mysteries — segment on the Cash–Landrum case",
+        "UFO Hunters — Cash–Landrum episode (History Channel, 2008)"
+      ],
       "games": [],
-      "other": []
+      "music": [],
+      "other": [
+        "Frequently cited in skeptical podcast Skeptoid by Brian Dunning"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "John F. Schuessler", "affiliation": "MUFON; NASA Johnson Space Center (aerospace engineer)", "contribution": "Principal field investigator and author of the definitive monograph on the case", "period": "1981-2010" },
+      { "name": "Allan Hendry", "affiliation": "Center for UFO Studies (CUFOS)", "contribution": "Independent contemporary review of the case", "period": "1981-1985" },
+      { "name": "Curt Collins", "affiliation": "Blue Blurry Lines (independent)", "contribution": "Detailed contemporary skeptical reanalysis of source documents", "period": "2014-present" },
+      { "name": "Brian Dunning", "affiliation": "Skeptoid", "contribution": "Skeptical reassessment for general audiences", "period": "2014-present" }
+    ],
+    "organizations": [
+      { "name": "Mutual UFO Network (MUFON)", "url": "https://mufon.com", "focus": "Civilian UFO investigation; original case record holder" },
+      { "name": "Center for UFO Studies (CUFOS)", "url": "https://www.cufos.org", "focus": "Independent UFO research" }
+    ],
+    "ongoing_studies": "Ongoing skeptical reassessment of the case continues alongside its rehabilitation in post-2017 UAP-disclosure discourse."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "schuessler-1998", "type": "book", "title": "The Cash-Landrum UFO Incident", "authors": ["John F. Schuessler"], "publication": "Geo Graphics Printing Company", "date": "1998" },
+    { "id": "wikipedia-cash-landrum", "type": "website", "title": "Cash–Landrum incident", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Cash%E2%80%93Landrum_incident", "accessed": "2026-05-07" },
+    { "id": "cash-v-us-1986", "type": "archive", "title": "Cash v. United States (Civil Action No. H-81-3441)", "publication": "U.S. District Court for the Southern District of Texas", "date": "1986-08-21" },
+    { "id": "skeptoid-cash-landrum", "type": "article", "title": "The Cash-Landrum UFO Incident", "authors": ["Brian Dunning"], "publication": "Skeptoid", "url": "https://skeptoid.com/episodes/4441", "accessed": "2026-05-07" }
+  ]
 }
